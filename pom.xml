@@ -28,7 +28,7 @@
 
   <groupId>org.rapidpm</groupId>
   <artifactId>rapidpm-dependencies-core</artifactId>
-  <version>04.07.00-alpha</version>
+  <version>04.07.01</version>
 
   <inceptionYear>2013</inceptionYear>
   <organization>
