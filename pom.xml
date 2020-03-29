@@ -123,7 +123,7 @@
     <dependency>
       <groupId>org.rapidpm</groupId>
       <artifactId>rapidpm-functional-reactive</artifactId>
-      <version>01.00.07-111</version>
+      <version>01.00.07-115</version>
     </dependency>
     <dependency>
       <groupId>org.rapidpm</groupId>
