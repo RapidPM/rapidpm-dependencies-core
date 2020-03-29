@@ -118,7 +118,20 @@
       <url>http://jfrog-repo.sven-ruppert.de:8081/artifactory/libs-snapshot</url>
     </pluginRepository>
   </pluginRepositories>
-  
+
+  <dependencies>
+    <dependency>
+      <groupId>org.rapidpm</groupId>
+      <artifactId>rapidpm-functional-reactive</artifactId>
+      <version>01.00.07-106</version>
+    </dependency>
+    <dependency>
+      <groupId>org.rapidpm</groupId>
+      <artifactId>rapidpm-logger-adapter</artifactId>
+      <version>01.00.10-106</version>
+    </dependency>
+  </dependencies>
+
   <build>
     <plugins>
       <plugin>
