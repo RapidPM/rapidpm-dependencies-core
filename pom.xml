@@ -22,13 +22,13 @@
   <parent>
     <groupId>org.rapidpm</groupId>
     <artifactId>rapidpm-dependencies</artifactId>
-    <version>04.07.01-114-115</version>
+    <version>04.07.01</version>
   </parent>
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>org.rapidpm</groupId>
   <artifactId>rapidpm-dependencies-core</artifactId>
-  <version>04.07.01-128-129-130-132-133</version>
+  <version>04.07.01</version>
 
   <inceptionYear>2013</inceptionYear>
   <organization>
