@@ -22,7 +22,7 @@
   <parent>
     <groupId>org.rapidpm</groupId>
     <artifactId>rapidpm-dependencies</artifactId>
-    <version>04.07.01-130</version>
+    <version>04.07.01-129</version>
   </parent>
   <modelVersion>4.0.0</modelVersion>
 
@@ -123,12 +123,12 @@
     <dependency>
       <groupId>org.rapidpm</groupId>
       <artifactId>rapidpm-functional-reactive</artifactId>
-      <version>01.00.07-121</version>
+      <version>01.00.07-139</version>
     </dependency>
     <dependency>
       <groupId>org.rapidpm</groupId>
       <artifactId>rapidpm-logger-adapter</artifactId>
-      <version>01.00.10-109</version>
+      <version>01.00.10-111-112-113-115-116-117-118</version>
     </dependency>
   </dependencies>
 
