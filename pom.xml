@@ -22,13 +22,13 @@
   <parent>
     <groupId>org.rapidpm</groupId>
     <artifactId>rapidpm-dependencies</artifactId>
-    <version>04.07.00-alpha-b46</version>
+    <version>04.07.04-RPM</version>
   </parent>
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>org.rapidpm</groupId>
   <artifactId>rapidpm-dependencies-core</artifactId>
-  <version>04.07.00-alpha</version>
+  <version>04.07.04</version>
 
   <inceptionYear>2013</inceptionYear>
   <organization>
@@ -75,11 +75,7 @@
 
 
   <properties>
-    <deploy-repo-url>http://jfrog-repo.sven-ruppert.de:8081/artifactory/libs-release</deploy-repo-url>
-    <deploy-repo-snapshots-url>http://jfrog-repo.sven-ruppert.de:8081/artifactory/libs-snapshot</deploy-repo-snapshots-url>
     <jdk.version>1.8</jdk.version>
-
-
   </properties>
 
   <repositories>
@@ -89,7 +85,8 @@
       </snapshots>
       <id>central</id>
       <name>libs-release</name>
-      <url>${deploy-repo-url}</url>
+<!--      <url>${deploy-repo-url}</url>-->
+      <url>http://jfrog-repo.sven-ruppert.de:8081/artifactory/libs-release</url>
     </repository>
     <repository>
       <snapshots>
@@ -98,7 +95,7 @@
       </snapshots>
       <id>snapshots</id>
       <name>libs-snapshot</name>
-      <url>${deploy-repo-snapshots-url}</url>
+      <url>http://jfrog-repo.sven-ruppert.de:8081/artifactory/libs-snapshot</url>
     </repository>
   </repositories>
   <pluginRepositories>
@@ -108,7 +105,8 @@
       </snapshots>
       <id>central</id>
       <name>libs-release</name>
-      <url>${deploy-repo-url}</url>
+      <url>http://jfrog-repo.sven-ruppert.de:8081/artifactory/libs-release</url>
+<!--      <url>${deploy-repo-url}</url>-->
     </pluginRepository>
     <pluginRepository>
       <snapshots>
@@ -117,10 +115,23 @@
       </snapshots>
       <id>snapshots</id>
       <name>libs-snapshot</name>
-      <url>${deploy-repo-snapshots-url}</url>
+      <url>http://jfrog-repo.sven-ruppert.de:8081/artifactory/libs-snapshot</url>
     </pluginRepository>
   </pluginRepositories>
-  
+
+  <dependencies>
+    <dependency>
+      <groupId>org.rapidpm</groupId>
+      <artifactId>rapidpm-functional-reactive</artifactId>
+      <version>01.00.07-RPM</version>
+    </dependency>
+    <dependency>
+      <groupId>org.rapidpm</groupId>
+      <artifactId>rapidpm-logger-adapter</artifactId>
+      <version>01.00.10-RPM</version>
+    </dependency>
+  </dependencies>
+
   <build>
     <plugins>
       <plugin>
